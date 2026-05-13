@@ -2,8 +2,9 @@
 
 [![pre-commit tests](https://github.com/redhat-cop/infra.aap_configuration/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/redhat-cop/infra.aap_configuration/actions/workflows/pre-commit.yml)
 [![Release - Automated](https://github.com/redhat-cop/infra.aap_configuration/actions/workflows/release_auto.yml/badge.svg)](https://github.com/redhat-cop/infra.aap_configuration/actions/workflows/release_auto.yml)
-<!-- markdownlint-disable-line MD033 MD034 --><a href="https://raw.githubusercontent.com/redhat-cop/infra.aap_configuration/devel/docs/aap_config_as_code_public_meeting.ics"><img border="0" alt="Google Calendar invite" width="60" src="https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_20_2x.png"></a>
 <!-- Further CI badges go here as above -->
+
+[![Google Calendar invite](https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_20_2x.png)](https://raw.githubusercontent.com/redhat-cop/infra.aap_configuration/devel/docs/aap_config_as_code_public_meeting.ics)
 
 This Ansible collection allows for easy interaction with AAP 2.5+ via Ansible roles using the modules from the certified collections.
 
@@ -48,12 +49,13 @@ collections:
 
 |                                      Collection Name                                                  |                      Purpose                      |
 |:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------:|
+| [AAP <= 2.4 Controller Configuration](https://github.com/redhat-cop/infra.controller_configuration)   | Automation controller configuration               |
 | [AAP Configuration Extended](https://github.com/redhat-cop/aap_configuration_extended)                | Where other useful roles that don't fit here live |
 | [EE Utilities](https://github.com/redhat-cop/ee_utilities)                                            | Execution Environment creation utilities          |
 | [AAP installation Utilities](https://github.com/redhat-cop/aap_utilities)                             | Ansible Automation Platform Utilities             |
 | [AAP Configuration Template](https://github.com/redhat-cop/aap_configuration_template)                | Configuration Template for this suite             |
 | [Ansible Validated Gitlab Workflows](https://gitlab.com/redhat-cop/infra/ansible_validated_workflows) | Gitlab CI/CD Workflows for ansible content        |
-| [Ansible Validated Github Workflows](https://github.com/redhat-cop/infra.ansible_validated_workflows) | Github CI/CD Workflows for ansible content        |
+| [Ansible Validated GitHub Workflows](https://github.com/redhat-cop/infra.ansible_validated_workflows) | GitHub CI/CD Workflows for ansible content        |
 
 ## Included content
 
@@ -278,7 +280,7 @@ Adding the ability to use direct output from the awx export command in the roles
 We welcome community contributions to this collection. If you find problems, please open an issue or create a PR against the [Controller Configuration collection repository](https://github.com/redhat-cop/aap_configuration).
 More information about contributing can be found in our [Contribution Guidelines.](https://github.com/redhat-cop/aap_configuration/blob/devel/.github/CONTRIBUTING.md)
 
-<!-- markdownlint-disable-line MD033 MD034 -->We have a community meeting every 4 weeks. Find the agenda in the [issues](https://github.com/redhat-cop/infra.aap_configuration/issues) and the calendar invitation here:<a target="_blank" href="https://raw.githubusercontent.com/redhat-cop/infra.aap_configuration/devel/docs/aap_config_as_code_public_meeting.ics"><img border="0" alt="Google Calendar invite" width="20" src="https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_20_2x.png"></a>
+We have a community meeting every 4 weeks. Find the agenda in the [issues](https://github.com/redhat-cop/infra.aap_configuration/issues) and the calendar invitation here: [![Google Calendar invite](https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_20_2x.png)](https://raw.githubusercontent.com/redhat-cop/infra.aap_configuration/devel/docs/aap_config_as_code_public_meeting.ics)
 
 ## Code of Conduct
 
@@ -291,3 +293,7 @@ Please read and familiarize yourself with this document.
 GNU General Public License v3.0 or later.
 
 See [LICENSE](https://github.com/redhat-cop/infra.aap_configuration/blob/devel/LICENSE) to see the full text.
+
+## Support
+
+This collection is [Ansible Validated Content](https://access.redhat.com/articles/3166901). It is reviewed and tested by Red Hat but is not supported under a Red Hat SLA. For reporting issues and requesting improvements, file an issue at the [AAP Configuration repository](https://github.com/redhat-cop/infra.aap_configuration/issues). Community help is also available on the [Ansible Forum](https://forum.ansible.com/tag/infra-config-as-code).
